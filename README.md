@@ -5,7 +5,8 @@ Works with Python 2.6+.
 
 ## Quick Start
 Setup your AWS credentials. There are many ways to do this, see:
-https://boto3.readthedocs.io/en/latest/guide/quickstart.html#configuration
+https://boto3.readthedocs.io/en/latest/guide/quickstart.html#configuration.
+The configured user must have Route 53 read & write access.
 
 Install Python requirements:
 ```

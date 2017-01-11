@@ -64,7 +64,7 @@ def main():
     if updated:
         datestr = '"Last update {0}."'.format(datetime.utcnow().strftime('%Y-%m-%d %H:%M'))
         logger.info(datestr)
-        upsert(zone_id, rtype='TXT', value=datestr)
+        upsert(zone_id, 'TXT', datestr)
     else:
         logger.info('"{0}" is current.'.format(fqdn))
 
