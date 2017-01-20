@@ -1,4 +1,4 @@
-# dyndns53
+# aws-dyndns53
 My take on dynamic DNS using AWS Route 53.
 Features support for both IPV4 A records and IPV6 AAAA records.
 Works with Python 2.6+.
